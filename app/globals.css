@@ -3,5 +3,16 @@
 @tailwind utilities;
 
 h1 {
-  background-color: #f00
+    background-color: #4849ff;
+}
+body {
+    background-color: #d5d6ed;
+}
+button {
+    background-color: #140A85;
+    color: #d5d6ed;
+}
+
+div{
+    border: 1px solid #140A85;
 }

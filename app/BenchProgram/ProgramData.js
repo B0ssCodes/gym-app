@@ -1,62 +1,98 @@
 export default [
     {
         id: 1,
-        title: "Workout 1",
+        title: "Workout 1:",
         set1: 0.55,
         set2: 0.6,
         set3: 0.65,
         set4: 0.7,
         set5: 0.75,
-        set6: 0
+        set6: 0,
+        reps1: 10,
+        reps2: 10,
+        reps3: 10,
+        reps4: 10,
+        reps5: 10,
+        reps6: 10
     },
     {
         id: 2,
-        title: "Workout 2",
+        title: "Workout 2:",
         set1: 0.55,
         set2: 0.6,
         set3: 0.65,
         set4: 0.7,
         set5: 0.75,
-        set6: 0.8
+        set6: 0.8,
+        reps1: 10,
+        reps2: 8,
+        reps3: 8,
+        reps4: 8,
+        reps5: 8,
+        reps6: 8
     },
     {
         id: 3,
-        title: "Workout 3",
+        title: "Workout 3:",
         set1: 0.55,
         set2: 0.65,
         set3: 0.7,
         set4: 0.75,
         set5: 0.8,
-        set6: 0.85
+        set6: 0.85,
+        reps1: 10,
+        reps2: 8,
+        reps3: 6,
+        reps4: 6,
+        reps5: 6,
+        reps6: 6
     },
     {
         id: 4,
-        title: "Workout 4",
+        title: "Workout 4:",
         set1: 0.55,
         set2: 0.7,
         set3: 0.75,
         set4: 0.8,
         set5: 0.85,
-        set6: 0.9
+        set6: 0.9,
+        reps1: 10,
+        reps2: 8,
+        reps3: 6,
+        reps4: 4,
+        reps5: 4,
+        reps6: 4
     },
     {
         id: 5,
-        title: "Workout 5",
+        title: "Workout 5:",
         set1: 0.55,
         set2: 0.75,
         set3: 0.8,
         set4: 0.85,
         set5: 0.9,
-        set6: 0.95
+        set6: 0.95,
+        reps1: 10,
+        reps2: 8,
+        reps3: 6,
+        reps4: 4,
+        reps5: 2,
+        reps6: 2
     },
     {
         id: 6,
-        title: "Workout 6",
+        title: "Workout 6:",
         set1: 0.55,
         set2: 0.8,
         set3: 0.85,
         set4: 0.9,
         set5: 0.95,
-        set6: 1
+        set6: 1,
+        reps1: 10,
+        reps2: 8,
+        reps3: 6,
+        reps4: 4,
+        reps5: 2,
+        reps6: 1
     }
 ]

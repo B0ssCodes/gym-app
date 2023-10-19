@@ -2,7 +2,7 @@
 import React from 'react'
 import PRinput from './PRinput'
 import ProgramMaker from './ProgramMaker'
-import data from './ProgramData'
+import data from './ProgramData.js'
 import Reset from './ResetButton.js'
 
 export default function Bench() {
@@ -31,12 +31,18 @@ export default function Bench() {
                   set4= {workout.set4}
                   set5= {workout.set5}
                   set6= {workout.set6}
+                  reps1= {workout.reps1}
+                  reps2= {workout.reps2}
+                  reps3= {workout.reps3}
+                  reps4= {workout.reps4}
+                  reps5= {workout.reps5}
+                  reps6= {workout.reps6}
                   shouldRender={renderOrNot}
                   />
   })
 
   return (
-    <div>
+    <div className='bg-[#d5d6ed]'>
         <h1>
             Input your bench PR:
         </h1>

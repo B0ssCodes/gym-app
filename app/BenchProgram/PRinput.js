@@ -12,11 +12,11 @@ function handleSubmit(event){
     <>
     <form onSubmit={handleSubmit}>  
     <input type="text" id="benchPR" name="benchPR" className='bg-gray-400'  
-      
     onChange={props.handleChange} 
+  
     />
 
-    <button onClick={props.changeRender}>Submit</button>
+    <button onClick={props.changeRender} >Submit</button>
     </form>
     
     </>
