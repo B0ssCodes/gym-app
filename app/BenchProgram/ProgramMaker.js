@@ -1,5 +1,6 @@
 
 import React from 'react'
+import styles from './styles.modules.css'
 export default function ProgramMaker(props) {
 
     var set1Rounded = 2.5 * Math.ceil(((props.set1)*props.input)/2.5)
@@ -18,15 +19,17 @@ export default function ProgramMaker(props) {
     }
    
 return(
-   
-    <div className='m-4'>
-    {props.shouldRender &&<h2>{props.title}</h2>}
-    {props.shouldRender &&<h2>Set 1: {set1Rounded} x{props.reps1} </h2>}
-    {props.shouldRender &&<h2>Set 2: {set2Rounded} x{props.reps2}</h2>}
-    {props.shouldRender &&<h2>Set 3: {set3Rounded} x{props.reps3}</h2>}
-    {props.shouldRender &&<h2>Set 4: {set4Rounded} x{props.reps4}</h2>}
-    {props.shouldRender &&<h2>Set 5: {set5Rounded} x{props.reps5}</h2>}
-    {render6&&<h2>Set 6: {set6Rounded} x{props.reps6}</h2>}
+   <div>
+    {props.shouldRender && (<div className="workoutBox">
+    <h2>{props.title}</h2>
+    <p className>Set 1: {set1Rounded} x{props.reps1} </p>
+    <p>Set 2: {set2Rounded} x{props.reps2}</p>
+    <p>Set 3: {set3Rounded} x{props.reps3}</p>
+    <p>Set 4: {set4Rounded} x{props.reps4}</p>
+    <p>Set 5: {set5Rounded} x{props.reps5}</p>
+    {render6&&<p>Set 6: {set6Rounded} x{props.reps6}</p>}
+    </div>
+    )}
     </div>
 )
 
