@@ -13,7 +13,7 @@ function handleSubmit(event){
     <form onSubmit={handleSubmit} className="formFormClass">  
     
     <input type="number" id="benchPR" name="benchPR" placeholder='Enter your bench PR'  className='input input-bordered input-primary mb-2 rounded-2xl' 
-    onChange={props.handleChange} value= {props.inputtedBenchPR} disabled = {!props.disableOrNot}/>
+    onChange={props.handleChange} value= {props.inputtedBenchPR} disabled = {props.disableOrNot}/>
 
 
 

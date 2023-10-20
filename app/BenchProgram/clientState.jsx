@@ -10,12 +10,8 @@ export default function ClientState() {
     const [renderOrNot, setRenderOrNot] = React.useState(false)
   const [inputtedBenchPR, setBenchPR] = React.useState(0)
 
-  const [radioResult, setRadioResult] = React.useState("")
 
-  function handleCheck(event){
-      setRadioResult(event.target.value)
 
-  }
   function changeRender(){
       setRenderOrNot(true)
   }
@@ -45,7 +41,6 @@ export default function ClientState() {
                   reps5= {workout.reps5}
                   reps6= {workout.reps6}
                   shouldRender={renderOrNot}
-                  radioResult={radioResult}
                   />
   })
   
@@ -53,9 +48,7 @@ export default function ClientState() {
         <div className="inputBlock">
           <div className="inputTextButton">
           <PRinput changeRender={changeRender} inputtedBenchPR={inputtedBenchPR}
-           handleChange={handleChange} handleCheck={handleCheck} radioResult={radioResult}
-           disableOrNot= {!renderOrNot}
-           />
+           handleChange={handleChange}  disableOrNot= {renderOrNot}/>
         
           </div>
           {renderOrNot&&<h1>Here is your program: </h1>}
