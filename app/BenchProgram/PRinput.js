@@ -11,10 +11,8 @@ function handleSubmit(event){
   return (
     <div className="formClass">
     <form onSubmit={handleSubmit} className="formFormClass">  
-    <input type="text" id="benchPR" name="benchPR" className='input input-bordered input-primary ' placeholder='Enter your bench PR'
+    <input type="number" id="benchPR" name="benchPR" className='input input-bordered input-primary mb-2 rounded-2xl' placeholder='Enter your bench PR'
     onChange={props.handleChange} value= {props.inputtedBenchPR}/>
-    <br />
-
     <button   onClick={props.changeRender} className='btn-primary btn rounded-full '>Submit</button>
     </form>
     

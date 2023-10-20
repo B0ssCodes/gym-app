@@ -45,8 +45,9 @@ export default function ClientState() {
         <div className="inputBlock">
           <div className="inputTextButton">
           <PRinput changeRender={changeRender} inputtedBenchPR={inputtedBenchPR} handleChange={handleChange} />
-        {renderOrNot&&<h1>Here is your program: </h1>}
+        
           </div>
+          {renderOrNot&&<h1>Here is your program: </h1>}
         {renderOrNot&&<div className='allWorkouts'>
             {workouts}
             </div>
