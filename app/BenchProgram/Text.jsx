@@ -30,7 +30,7 @@ export default function PageText() {
       </div>
       <div>
         <p>
-        Don't move on to the next workout unless you finish every single rep and set completely alone.
+        Don&apos;t move on to the next workout unless you finish every single rep and set completely alone.
         </p>
       </div>
       <div>
