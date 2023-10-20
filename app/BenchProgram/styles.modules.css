@@ -25,13 +25,20 @@
 .textBlock{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+   background-color: #000000;
 
 }
-.inputTextBlock{
+.inputBlock{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 20px;
-}   
+    padding: 20px;
+}   s
 
 .formClass:{
 display: flex;
@@ -39,9 +46,22 @@ justify-content: center;
 
 }
 
+.workoutMakerBody{
+border: 8px solid #d5d6ed;
+background-color: #d5d6ed;
+border-radius: 30px;
+
+}
+
+.formFormClass{
+display: flex;
+align-items: center;
+
+;}
 body{
  display: flex;
  justify-content: center;
  }
+
 
 

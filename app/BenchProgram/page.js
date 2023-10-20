@@ -16,7 +16,7 @@ export default function Bench() {
     <div >
 
       <PageText />
-      <div className='bg-[#d5d6ed]'>
+      <div className="workoutMakerBody">
         <h1>
             Input your bench PR:
         </h1>
