@@ -16,7 +16,7 @@ function handleSubmit(event){
   
     />
 
-    <button onClick={props.changeRender} >Submit</button>
+    <button  className ="btn btn-primary rounded-2xl" onClick={props.changeRender} >Submit</button>
     </form>
     
     </>

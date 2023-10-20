@@ -1,11 +1,16 @@
 .allWorkouts{
     display: flex;
-    margin : 5px;
-    padding: 5px;
+    justify-contenct: space-evenly;
+    flex-wrap: wrap;
+    background-color: #d5d6ed;
+    justify-content: space-evenly;
 }
+
 .workoutBox{
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-    
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    margin: 20px;
 }

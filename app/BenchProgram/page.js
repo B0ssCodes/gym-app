@@ -5,14 +5,17 @@ import ProgramMaker from './ProgramMaker'
 import data from './ProgramData.js'
 import Reset from './ResetButton.js'
 import styles from './styles.modules.css'
-import ClientState from './clientState'
+import ClientState from './clientState.jsx'
+import PageText from './Text.jsx'
 
 
 export default function Bench() {
  
 
   return (
-    <div className='bg-[#d5d6ed]'>
+    <div className='bg-[#d5d6ed]' >
+
+      <PageText />
         <h1>
             Input your bench PR:
         </h1>

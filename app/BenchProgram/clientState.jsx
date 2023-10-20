@@ -46,9 +46,10 @@ export default function ClientState() {
         <PRinput changeRender={changeRender} inputtedBenchPR={inputtedBenchPR} handleChange={handleChange} />
         {renderOrNot&&<h1>Here is your program: </h1>}
         
-        <div className='allWorkouts'>
+        {renderOrNot&&<div className='allWorkouts'>
             {workouts}
             </div>
+}
         <Reset resetRender={resetRender} />
         </div>
   

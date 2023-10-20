@@ -19,8 +19,8 @@ export default function ProgramMaker(props) {
     }
    
 return(
-   <div>
-    {props.shouldRender && (<div className="workoutBox">
+   <div className="workoutBox"> 
+    <div className="workoutBox">
     <h2>{props.title}</h2>
     <p className>Set 1: {set1Rounded} x{props.reps1} </p>
     <p>Set 2: {set2Rounded} x{props.reps2}</p>
@@ -29,7 +29,7 @@ return(
     <p>Set 5: {set5Rounded} x{props.reps5}</p>
     {render6&&<p>Set 6: {set6Rounded} x{props.reps6}</p>}
     </div>
-    )}
+    
     </div>
 )
 
