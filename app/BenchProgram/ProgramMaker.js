@@ -2,20 +2,13 @@
 import React from 'react'
 import styles from './styles.modules.css'
 export default function ProgramMaker(props) {
-    
-     var set1 = ((props.set1)*props.input)
-     var set2 = ((props.set2)*props.input)
-     var set3 = ((props.set3)*props.input)
-     var set4 = ((props.set4)*props.input)
-     var set5 = ((props.set5)*props.input)
-     var set6 = ((props.set6)*props.input)
 
-    var set1Rounded = 2.5 * Math.ceil(set1/2.5)
-    var set2Rounded = 2.5 * Math.ceil(set2/2.5)
-    var set3Rounded = 2.5 * Math.ceil(set3/2.5)
-    var set4Rounded = 2.5 * Math.ceil(set4/2.5)
-    var set5Rounded = 2.5 * Math.ceil(set5/2.5)
-    var set6Rounded = 2.5 * Math.ceil(set6/2.5)
+    var set1Rounded = 2.5 * Math.ceil(((props.set1)*props.input)/2.5)
+    var set2Rounded = 2.5 * Math.ceil(((props.set2)*props.input)/2.5)
+    var set3Rounded = 2.5 * Math.ceil(((props.set3)*props.input)/2.5)
+    var set4Rounded = 2.5 * Math.ceil(((props.set4)*props.input)/2.5)
+    var set5Rounded = 2.5 * Math.ceil(((props.set5)*props.input)/2.5)
+    var set6Rounded = 2.5 * Math.ceil(((props.set6)*props.input)/2.5)
      
     var render6 = false
      
