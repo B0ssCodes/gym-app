@@ -38,9 +38,9 @@
     align-items: center;
     margin: 20px;
     padding: 20px;
-}   s
+}   
 
-.formClass:{
+.formClass{
 display: flex;
 justify-content: center;
 
@@ -57,7 +57,7 @@ border-radius: 30px;
 display: flex;
 align-items: center;
 
-;}
+}
 body{
  display: flex;
  justify-content: center;
