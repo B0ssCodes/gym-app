@@ -13,14 +13,15 @@ export default function Bench() {
  
 
   return (
-    <div className='bg-[#d5d6ed]' >
+    <div >
 
       <PageText />
+      <div className='bg-[#d5d6ed]'>
         <h1>
             Input your bench PR:
         </h1>
         <ClientState />
-
+      </div>
     </div>
    
     

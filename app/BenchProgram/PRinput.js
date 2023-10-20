@@ -9,17 +9,15 @@ function handleSubmit(event){
     event.preventDefault()
 }
   return (
-    <>
+    <div className="formClass">
     <form onSubmit={handleSubmit}>  
-    <input type="text" id="benchPR" name="benchPR" className='bg-gray-400'  
-    onChange={props.handleChange} 
-  
-    />
+    <input type="text" id="benchPR" name="benchPR" className='input input-bordered input-primary ' placeholder='Enter your bench PR'
+    onChange={props.handleChange} value= {props.inputtedBenchPR}/>
+    <br />
 
-    <button  className ="btn btn-primary rounded-2xl" onClick={props.changeRender} >Submit</button>
+    <button   onClick={props.changeRender} className='btn-primary btn rounded-full '>Submit</button>
     </form>
     
-    </>
+    </div>
   )
 }
-

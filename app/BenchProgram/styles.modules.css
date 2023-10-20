@@ -7,10 +7,41 @@
 }
 
 .workoutBox{
+    
     border-radius: 10px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 15px;
     flex-shrink: 0;
     flex-basis: 200px;
     margin: 20px;
+
 }
+
+.pageText{
+    display: flex;
+    justify-content: center;
+}
+
+.textBlock{
+    display: flex;
+    justify-content: center;
+
+}
+.inputTextBlock{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}   
+
+.formClass:{
+display: flex;
+justify-content: center;
+
+}
+
+body{
+ display: flex;
+ justify-content: center;
+ }
+
+

@@ -42,7 +42,7 @@ export default function ClientState() {
   })
   
     return (
-        <div>
+        <div className="inputBlock">
         <PRinput changeRender={changeRender} inputtedBenchPR={inputtedBenchPR} handleChange={handleChange} />
         {renderOrNot&&<h1>Here is your program: </h1>}
         
@@ -50,7 +50,7 @@ export default function ClientState() {
             {workouts}
             </div>
 }
-        <Reset resetRender={resetRender} />
+        <Reset resetRender={resetRender} isRendered={setRenderOrNot} />
         </div>
   
   )
