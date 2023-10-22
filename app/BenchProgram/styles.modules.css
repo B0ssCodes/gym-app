@@ -4,6 +4,8 @@
     flex-wrap: wrap;
     background-color: #d5d6ed;
     justify-content: space-evenly;
+    align-content: space-evenly;
+    max-width: 80%;
 }
 
 .workoutBox{

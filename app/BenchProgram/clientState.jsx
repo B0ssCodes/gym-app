@@ -9,8 +9,11 @@ import Reset from './ResetButton.js'
 export default function ClientState() {
     const [renderOrNot, setRenderOrNot] = React.useState(false)
   const [inputtedBenchPR, setBenchPR] = React.useState(0)
-
-
+ const [benchToMaker, setBenchToMaker] = React.useState(0)
+ const [textToCopy, setTextToCopy] = React.useState("")
+  function setBench(){
+      setBenchToMaker(inputtedBenchPR)
+  }
 
   function changeRender(){
       setRenderOrNot(true)
@@ -27,7 +30,7 @@ export default function ClientState() {
   const workouts = data.map(workout => {
     return <ProgramMaker key={workout.id} 
                   title={workout.title}
-                  input={inputtedBenchPR}
+                  input={benchToMaker}
                   set1= {workout.set1}
                   set2= {workout.set2}
                   set3= {workout.set3}
@@ -48,7 +51,7 @@ export default function ClientState() {
         <div className="inputBlock">
           <div className="inputTextButton">
           <PRinput changeRender={changeRender} inputtedBenchPR={inputtedBenchPR}
-           handleChange={handleChange}  disableOrNot= {renderOrNot}/>
+           handleChange={handleChange}  disableOrNot= {renderOrNot} setBench={setBench}/>
         
           </div>
           {renderOrNot&&<h1>Here is your program: </h1>}
