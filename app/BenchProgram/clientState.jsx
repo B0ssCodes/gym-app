@@ -11,7 +11,10 @@ export default function ClientState() {
   const [inputtedBenchPR, setBenchPR] = React.useState(0)
  const [benchToMaker, setBenchToMaker] = React.useState(0)
  const [textToCopy, setTextToCopy] = React.useState("")
-  function setBench(){
+  
+ 
+ 
+ function setBench(){
       setBenchToMaker(inputtedBenchPR)
   }
 
@@ -44,6 +47,7 @@ export default function ClientState() {
                   reps5= {workout.reps5}
                   reps6= {workout.reps6}
                   shouldRender={renderOrNot}
+                  textToCopy={textToCopy}
                   />
   })
   
