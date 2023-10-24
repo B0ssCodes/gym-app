@@ -4,8 +4,8 @@
 
 /* base styles */
 body {
+  @apply text-[#373737] m-5;
   
-  @apply text-[#373737] m-8;
 }
 
 
