@@ -9,6 +9,7 @@ import ClientState from './clientState.jsx'
 import PageText from './Text.jsx'
 
 
+
 export default function Bench() {
  
 
@@ -16,8 +17,8 @@ export default function Bench() {
     <div >
 
       <PageText />
+      
       <div className="workoutMakerBody">
-        
         <h1>
             Input your bench PR:
         </h1>

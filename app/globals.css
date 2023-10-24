@@ -4,6 +4,8 @@
 
 /* base styles */
 body {
-  background: #FFFFFF;
-  @apply text-gray-500 m-8;
+  
+  @apply text-[#373737] m-8;
 }
+
+
