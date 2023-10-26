@@ -4,7 +4,7 @@ import MailLink from './MailLink';
 
 function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-neutral-200 text-base-content rounded-3xl  mt-10" >
+    <footer className="footer footer-center p-10 bg-neutral-200 text-base-content rounded-[40px]  mt-10" >
   <nav className="grid grid-flow-col gap-4">
     <Link href ="/AboutUs" className="link link-hover">About us</Link> 
     <MailLink/>

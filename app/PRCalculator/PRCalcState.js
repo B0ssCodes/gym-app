@@ -6,8 +6,8 @@ import PRMaker from './PRMaker'
 export default function PRCalcState() {
  
     const [renderOrNot, setRenderOrNot] = React.useState(false)
-    const [inputtedWeight, setInputtedWeight] = React.useState(0)
-    const [inputtedReps, setInputtedReps] = React.useState(0)
+    const [inputtedWeight, setInputtedWeight] = React.useState("")
+    const [inputtedReps, setInputtedReps] = React.useState("")
     const [weightToMaker, setWeightToMaker] = React.useState(0)
     const [repsToMaker, setRepsToMaker] = React.useState(0)
 

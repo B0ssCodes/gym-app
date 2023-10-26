@@ -88,7 +88,7 @@ flex-direction: column;
   background-color: #30d5c8;
   padding: 15px;
   flex-shrink: 0;
-  flex-basis: 300px;
+  flex-basis: 250px;
   margin: auto auto auto auto;
   display: flex;
   justify-content: center;
