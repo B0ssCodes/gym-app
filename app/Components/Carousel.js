@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Carousel() {
   return (
-    <div className="carousel w-full mb-5 mt-3">
+    <div className="carousel w-full mb-5 ">
   <div id="slide1" className="carousel-item relative w-full">
     <div className="carouselDiv">Finish every rep. Even if you fail, get a spotter to help you complete your rep goal. </div>
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

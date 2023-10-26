@@ -1,8 +1,11 @@
 import { Rubik } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 const rubik = Rubik({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'Gym App',

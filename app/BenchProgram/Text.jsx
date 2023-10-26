@@ -1,10 +1,12 @@
 import React from 'react'
 import Carousel from '../Components/Carousel'
+import BenchPRCalculatorButton from './BenchPRCalculatorButton'
+import WorkoutSplitButton from './WorkoutSplitButton'
 
 export default function PageText() {
   return (
     <div className="textContainer" >
-      <h1 className='text-2xl justify-self-center'>Welcome to the Bench Workout Maker!</h1>
+      <h1 className='text-3xl justify-self-center font-bold'>Welcome to the Bench Workout Maker!</h1>
       <div className="text1">
         <h1>
           What is it?
@@ -14,25 +16,23 @@ export default function PageText() {
               Our Bench Workout Maker uses an advanced mathematical formula that takes your bench press PR and turns it into a 6 week program that will help you increase your bench press strength. 
        </p>
       </div>
-      <div className="text2">
-        <h1>
+        <h1 className='my-3 font-medium'>
           Not sure what your PR is? 
         </h1>
-        <h2>
-          Check out our Bench PR Calculator!
-        </h2>
-      </div>
-      <div className="text3">
-        <h1>Rules: </h1>
         <br />
+        <BenchPRCalculatorButton />
+        <br />
+        <br />
+        <h1 className='mt-4 font-semibold text-xl'>Rules: </h1>
+      
+      <div className="text3 ml-5">
+        
         
       <Carousel />
   
       </div>
       <div className="workoutSplitsLink">
-       <h1 className='text-center' >
-        Check out our recommended workout splits!
-       </h1>
+      <WorkoutSplitButton />
       </div>
     </div>
   )
