@@ -1,4 +1,3 @@
-
 import React from 'react'
 import ProgramMaker from './ProgramMaker'
 import data from './ProgramData'
@@ -16,9 +15,6 @@ function handleSubmit(event){
     
     <input type="number" id="benchPR" name="benchPR" placeholder='Enter your bench PR'  className='input input-bordered input-primary mb-2 rounded-2xl' 
     onChange={props.handleChange} value= {props.inputtedBenchPR} />
-
-
-
   
     <button   onClick={props.changeRender}  className='btn-primary btn rounded-full '>Submit</button>
     </form>
