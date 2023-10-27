@@ -2,11 +2,7 @@
 import React from 'react'
 
 export default function NavbarToggle() {
-      const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
     
-      function handleToggleDropdown() {
-        setIsDropdownOpen(!isDropdownOpen);
-      }
     
       return (
         <div>

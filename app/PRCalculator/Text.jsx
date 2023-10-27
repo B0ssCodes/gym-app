@@ -24,7 +24,7 @@ export default function PageText() {
        
         <h1 className='mt-1 font-semibold text-xl'>How to use: </h1>
       <div className='my-1'>
-        <p>To make this PR Calculator work as intended please input your bench weight a rep range between 5-12</p>
+        <p>To make this PR Calculator work as intended please input your bench weight and a rep range between 5-12</p>
       </div>
       
       <div className="workoutSplitsLink my-2">

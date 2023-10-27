@@ -20,10 +20,9 @@ body {
   max-width: 80%;
 }
 
-.workoutBox{
-  
+.workoutBox {
   border-radius: 40px;
-  background: #f4fdff;
+  background-color: #f2f2f2;
   padding: 15px;
   flex-shrink: 0;
   flex-basis: 200px;
@@ -31,9 +30,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  animation: appear 0.5s ease-out;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 .textBlock{

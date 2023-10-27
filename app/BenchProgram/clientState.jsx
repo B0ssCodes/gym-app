@@ -8,9 +8,9 @@ import Reset from './ResetButton.js'
 
 export default function ClientState() {
     const [renderOrNot, setRenderOrNot] = React.useState(false)
-  const [inputtedBenchPR, setBenchPR] = React.useState(0)
+  const [inputtedBenchPR, setBenchPR] = React.useState("")
  const [benchToMaker, setBenchToMaker] = React.useState(0)
- const [textToCopy, setTextToCopy] = React.useState("")
+
   
  
  
@@ -47,7 +47,7 @@ export default function ClientState() {
                   reps5= {workout.reps5}
                   reps6= {workout.reps6}
                   shouldRender={renderOrNot}
-                  textToCopy={textToCopy}
+                  
                   />
   })
   
